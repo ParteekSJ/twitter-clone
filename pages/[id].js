@@ -58,7 +58,7 @@ export default function PostPage({
     <div>
       <Head>
         <title>
-          {post?.username} on Twitter: "{post?.text}"
+          {post?.username} on Twitter: {post?.text}
         </title>
       </Head>
       <main className="flex bg-black min-h-screen max-w-[1500px] mx-auto">
